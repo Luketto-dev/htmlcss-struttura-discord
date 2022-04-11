@@ -5,7 +5,6 @@
   }
   
   body {
-    font-family: "Fredoka", sans-serif;
     font-size: 16px;
   }
 
@@ -19,11 +18,16 @@
     max-width: 960px;
     min-width: 300px;
     margin: 0 auto;
-    padding: .25rem .25rem;
   }
+
+/* UTILITY */
 
   .padding-xl{
       padding: 2rem 0;
+  }
+
+  .padding-s{
+      padding: .60rem 0;
   }
 
   .bg-orange{
@@ -38,8 +42,36 @@
       background-color: #D3D3D3;
   }
 
+  .bg-dark{
+    background-color: black;
+  }
+
+  .bg-pink{
+    background-color: #FFC0CB;
+  }
+
+  .bg-light-blue{
+    background-color: #1E90FF;
+  }
+
+  .bg-dark-pink{
+      background-color: #F08080;
+  }
+
+  .bg-water{
+      background-color: #20B2AA;
+  }
+
+  .bg-water-light{
+      background-color: #7FFFD4;
+  }
+
   .d-flex{
       display: flex;
+  }
+  
+  .j-content-between{
+      justify-content: space-between;
   }
 
   .row-reverse{
@@ -79,21 +111,33 @@
   }
 
   .container .col{
-    min-height: 400px;
+    min-height: 350px;
     border: 1px dashed black;
   }
 
   .col.col-l{
       flex-grow: 2;
-      background-color: #1E90FF;
   }
 
   .col.col-s{
       flex-grow: 1;
-      background-color: #FFC0CB;
   }
 
   .container .container-l{
-      min-height: 500px;
+      min-height: 550px;
       background-color: #228B22;
   }
+
+  .logo-footer{
+      padding: .25rem;
+  }
+
+  .registration{
+      padding: .25rem;
+  }
+
+  .separator{
+      border-bottom: 1px solid white;
+      padding: .75rem 0
+  }
+
