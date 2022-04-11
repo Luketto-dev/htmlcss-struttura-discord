@@ -78,6 +78,7 @@
     flex-direction: row-reverse;
   }
 
+  /* classi all'iterno dell'header */
   .container .logo{
       width: 20%;
       border: 1px dashed black;
@@ -103,6 +104,7 @@
       list-style: none;
   }
 
+  /* creo un nuovo container-s per mantenere il container più pulito possibile */
   section .container .container-s{
     width: 80%;
     margin: 0 auto;
@@ -110,11 +112,13 @@
     min-height: 300px;
   }
 
+  /* .col classe per tutte le colonne  */
   .container .col{
     min-height: 350px;
     border: 1px dashed black;
   }
 
+  /* divido le colonne in base alla grandezza */
   .col.col-l{
       flex-grow: 2;
   }
@@ -123,6 +127,7 @@
       flex-grow: 1;
   }
 
+  
   .container .container-l{
       min-height: 550px;
       background-color: #228B22;
