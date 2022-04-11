@@ -30,6 +30,10 @@
       padding: .60rem 0;
   }
 
+  .padding-xs{
+      padding: .25rem .25rem;
+  }
+
   .bg-orange{
       background-color: #DAA520;
   }
@@ -114,7 +118,7 @@
 
   /* .col classe per tutte le colonne  */
   .container .col{
-    min-height: 350px;
+    min-height: 400px;
     border: 1px dashed black;
   }
 
@@ -127,22 +131,23 @@
       flex-grow: 1;
   }
 
-  
   .container .container-l{
       min-height: 550px;
       background-color: #228B22;
   }
 
   .logo-footer{
-      padding: .25rem;
+      padding: .10rem;
+      border: 1px dashed black;
   }
 
   .registration{
-      padding: .25rem;
+      padding: .10rem;
+      border: 1px dashed black;
   }
 
   .separator{
-      border-bottom: 1px solid white;
-      padding: .75rem 0
+      margin: 1rem 0;
+      border: 1px solid white;
   }
 
