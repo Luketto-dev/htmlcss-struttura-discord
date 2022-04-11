@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Fredoka", sans-serif;
+    font-size: 16px;
+  }
+
+  header{
+      background-color: #ADD8E6;
+      padding: .35rem 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+    border: 1px dashed black;
+    padding: .25rem .25rem;
+  }
+
+  .bg-orange{
+      background-color: #DAA520;
+  }
+
+  .d-flex{
+      display: flex;
+  }
+
+  .logo{
+      width: 20%;
+      border: 1px dashed black;
+  }
+
+  .main-menu{
+    flex-grow: 1;
+    border: 1px dashed black;
+}
+
+  .login{
+      width: 20%;
+      text-align: right;
+      border: 1px dashed black;
+  }
+
+  .main-menu ul{
+      justify-content: center;
+      gap: 10px;
+  }
+
+  .main-menu ul li{
+      list-style: none;
+  }
